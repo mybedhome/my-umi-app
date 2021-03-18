@@ -6,20 +6,15 @@ const appConfig = {
   nodeModulesTransform: {
     type: 'none',
   },
+  title: '基建全过程数字化综合管理平台',
+  mountElementId: 'root',
   routes,
   dva: {
     hmr: true,
     immer: true,
   },
   qiankun: {
-    master: {
-      apps: [
-        {
-          name: 'vue-app',
-          entry: '//localhost:8080',
-        },
-      ],
-    },
+    slave: {},
   },
 };
 

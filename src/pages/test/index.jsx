@@ -1,7 +1,9 @@
 import React, { PureComponent } from 'react';
-
+import { useModel } from 'umi';
 export default props => {
   console.log('props', props);
+  const res = useModel('useTest');
+  console.log('res', res);
   return (
     <div>
       <h1>test page2</h1>

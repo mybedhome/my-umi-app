@@ -5,9 +5,7 @@
     "start": "umi dev",
     "build": "umi build",
     "postinstall": "umi generate tmp",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
-    "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -22,10 +20,14 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
+    "@bj-nsc/functions": "^1.1.9",
+    "@bj-nsc/sm2": "^1.0.16",
     "@umijs/preset-react": "1.x",
-    "@umijs/test": "^3.2.20",
     "antd": "^4.14.0",
+    "js-cookie": "^2.2.1",
+    "jsencrypt": "^3.1.0",
     "lint-staged": "^10.0.7",
+    "nsc-request": "^0.0.1",
     "prettier": "^1.19.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
